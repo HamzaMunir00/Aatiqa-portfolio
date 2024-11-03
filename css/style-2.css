@@ -39,7 +39,8 @@ body {
 }
 
 .bg-image {
-  background-image: url(../../assets/headline-bg.png);
+  background: url(/assets/headline-bg.png);
+
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -116,50 +117,62 @@ body {
 }
 
 .work .card-bg-1-4 {
-  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../../assets/heart-1.webp);
+  background-image: linear-gradient(
+      180deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url(/assets/heart-1.webp);
   background-repeat: no-repeat;
   background-position: center; /* Center the image */
   background-size: 110% auto; /* Increase the width slightly */
-  
 }
 
 .work .card-bg-1-4:hover {
-  background-image: url(../../assets/dataset-card.jpg);
+  background-image: url(/assets/dataset-card.jpg);
 }
 
 .work .card-bg-2-5 {
-  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../../assets/UNI-1.jfif);
+  background-image: linear-gradient(
+      180deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url(/assets/UNI-1.jfif);
   background-repeat: no-repeat;
   background-position: center; /* Center the image for better appearance */
   background-size: 105% auto; /* Reduce the width to 90% */
-  
 }
 
 .work .card-bg-2-5:hover {
-  background-image: url(../../assets/uni-2.png);
+  background-image: url(/assets/uni-2.png);
 }
 .work .card-bg-3-6 {
-  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../../assets/hms-3.jfif);
+  background-image: linear-gradient(
+      180deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url(/assets/hms-3.jfif);
   background-repeat: no-repeat;
   background-position: center; /* Center the image to balance left and right sides */
   background-size: 105% auto; /* Increase width to cover both sides */
 }
 .work .card-cal-1 {
-  
-  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../../assets/cal-1.jfif);
+  background-image: linear-gradient(
+      180deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url(/assets/cal-1.jfif);
   background-repeat: no-repeat;
   background-position: center; /* Center the image to balance left and right sides */
   background-size: 105% auto; /* Increase width to cover both sides */
-
 }
-.work .card-cal-1:hover{
-  background-image: url(../../assets/cal-2.jfif);
+.work .card-cal-1:hover {
+  background-image: url(/assets/cal-2.jfif);
 }
-
-
-
-
 
 .work .card-bg-3-6:hover {
-  background-image: url(../../assets/hms-1.jfif);
+  background-image: url(/assets/hms-1.jfif);
 }
