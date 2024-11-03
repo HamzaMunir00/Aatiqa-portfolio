@@ -39,7 +39,7 @@ body {
 }
 
 .bg-image {
-  background: url(/assets/headline-bg.png);
+  background-image: url("./assets/headline-bg.png");
 
   background-repeat: no-repeat;
   background-position: right;
